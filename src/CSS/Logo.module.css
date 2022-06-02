@@ -1,0 +1,28 @@
+.logoWrapper{
+    display: flex;
+    justify-content: space-between;
+    max-height: 50px;
+    margin: 10px;
+}
+.logoImg{
+    width: 50px;
+}
+.imgDiv{
+    display: flex;
+}
+.titleWrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.title{
+    margin: 0px;
+    padding: 0px 0px 10px 10px;
+}
+.subTitle{
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+}
+.topic{
+
+}

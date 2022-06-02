@@ -1,0 +1,27 @@
+.signature{
+    text-align: left;
+    font-size: 12px;
+    color: #6C757D;
+    margin: 10px;
+}
+.signature > p{
+    margin: 0px;
+}
+.signatureImg{
+    max-width: 100px;
+    max-height: 100px;
+}
+.footerTxt{
+    text-align: center;
+    color: black;
+}
+.address{
+    margin: 40px 0px 0px;
+}
+.website{
+    margin: 0px;
+}
+.linkAdd{
+    text-decoration: none;
+    color: black;
+}
