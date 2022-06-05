@@ -58,3 +58,23 @@
     width: 10px;
     background: #00AD63;
 }
+.showBox{
+    display: block;
+}
+.hideBox{
+    display: none;
+}
+
+@media all {
+    .page-break {
+      display: none;
+    }
+  }
+  
+@media print {
+    .page-break {
+      margin-top: 1rem;
+      display: block;
+      page-break-before: auto;
+    }
+  }
