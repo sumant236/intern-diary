@@ -3,9 +3,6 @@ import { ShowData } from './ShowData'
 import styles from "../CSS/InternTimeline.module.css"
 
 export const InternTimeline = ({userData}) => {
-    useEffect(()=>{
-        // userData.map((data=>console.log(data._id)))
-    },[])
   return (
     <div className={styles.container}>
         <h4>Internship Timeline</h4>

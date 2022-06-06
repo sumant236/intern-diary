@@ -15,8 +15,11 @@ export const InternDiary = React.forwardRef((props, ref) => {
     axios(config)
     .then((res)=>{
       setUserData(res.data)
+      // console.log(userData)
     })
     .catch((err)=>console.log(err));
+    console.log(userData);
+    return setUserData([]);
   },[])
   return (
       <div ref={ref}>

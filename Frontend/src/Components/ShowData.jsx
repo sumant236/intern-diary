@@ -2,9 +2,6 @@ import React, { useEffect } from 'react'
 import styles from "../CSS/InternTimeline.module.css"
 
 export const ShowData = ({date, data}) => {
-    useEffect(()=>
-    console.log({data, date})
-    )
     const getPageMargins = () => {
         return `@page { page-break-before: auto !important }`;
       };

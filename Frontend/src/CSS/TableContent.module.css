@@ -19,6 +19,9 @@
     padding: 10px;
     width: 800px;
 }
+input{
+    min-width: 99%;
+}
 /* 
 .lastRow{
 
