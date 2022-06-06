@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { ShowData } from './ShowData'
 import styles from "../CSS/InternTimeline.module.css"
 
